@@ -4,6 +4,7 @@ Download music from nhaccuatui.com
 * Don't need to watch ads
 * Download a list of tracks
 * Download a playlist
+* Slugify track name if track name contains some special characters
 
 ### Prerequisites 
 * Download `python`: https://www.python.org/
@@ -53,16 +54,14 @@ python crawl_nct.py https://www.nhaccuatui.com/playlist/1989-taylors-version-tay
 Đang tải bài hát You Are In Love (Taylor's Version)
 Đang tải bài hát New Romantics (Taylor's Version)
 Đang tải bài hát "Slut!" (Taylor's Version) (From The Vault)
-> Lỗi khi lưu file "Slut!" (Taylor's Version) (From The Vault) - - error: [Errno 22] Invalid argument: 'nhac/"Slut!" (Taylor\'s Version) (From The Vault).mp3'
-> Lỗi khi lưu file "Slut!" (Taylor's Version) (From The Vault)
+> Đổi tên bài hát "Slut!" (Taylor's Version) (From The Vault) => slut-taylor-s-version-from-the-vault
 Đang tải bài hát Say Don't Go (Taylor's Version) (From The Vault)
 Đang tải bài hát Now That We Don't Talk (Taylor's Version) (From The Vault)
 Đang tải bài hát Suburban Legends (Taylor's Version) (From The Vault)
 Đang tải bài hát Is It Over Now? (Taylor's Version) (From The Vault)
-> Lỗi khi lưu file Is It Over Now? (Taylor's Version) (From The Vault) - - error: [Errno 22] Invalid argument: "nhac/Is It Over Now? (Taylor's Version) (From The Vault).mp3"
-> Lỗi khi lưu file Is It Over Now? (Taylor's Version) (From The Vault)
+> Đổi tên bài hát Is It Over Now? (Taylor's Version) (From The Vault) => is-it-over-now-taylor-s-version-from-the-vault
 
-Đã xong. Đã tải 19 bài hát
+Đã xong. Đã tải 21 bài hát
 ```
 
 ### Note
