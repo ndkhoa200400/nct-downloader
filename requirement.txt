@@ -3,3 +3,4 @@ lxml
 json
 re
 urllib
+python-slugify
